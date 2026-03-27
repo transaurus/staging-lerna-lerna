@@ -1,0 +1,14 @@
+{
+  "name": "e2e-version",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "tags": [],
+  "implicitDependencies": ["lerna", "commands-version"],
+  "targets": {
+    "e2e": {},
+    "prepare-for-e2e": {},
+    "lint": {
+      "executor": "@nx/eslint:lint",
+      "outputs": ["{options.outputFile}"]
+    }
+  }
+}

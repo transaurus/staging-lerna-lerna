@@ -1,0 +1,14 @@
+{
+  "name": "e2e-exec",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "tags": [],
+  "implicitDependencies": ["lerna", "commands-exec"],
+  "targets": {
+    "e2e": {},
+    "prepare-for-e2e": {},
+    "lint": {
+      "executor": "@nx/eslint:lint",
+      "outputs": ["{options.outputFile}"]
+    }
+  }
+}

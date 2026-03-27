@@ -1,0 +1,9 @@
+{
+  "name": "@integration/package-1",
+  "version": "1.0.0",
+  "publishConfig": {
+    "access": "public",
+    "tag": "CUSTOM"
+  },
+  "repository": "lerna/publish-integration"
+}

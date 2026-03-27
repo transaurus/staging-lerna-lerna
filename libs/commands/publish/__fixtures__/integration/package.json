@@ -1,0 +1,6 @@
+{
+  "name": "integration",
+  "version": "0.0.0",
+  "private": true,
+  "repository": "lerna/publish-integration"
+}

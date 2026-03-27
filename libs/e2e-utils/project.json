@@ -1,0 +1,20 @@
+{
+  "name": "e2e-utils",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "libs/e2e-utils/src",
+  "projectType": "library",
+  "tags": [],
+  "targets": {
+    "lint": {
+      "executor": "@nx/eslint:lint",
+      "outputs": ["{options.outputFile}"]
+    },
+    "test": {
+      "executor": "@nx/jest:jest",
+      "outputs": ["{workspaceRoot}/coverage/libs/e2e-utils"],
+      "options": {
+        "jestConfig": "libs/e2e-utils/jest.config.ts"
+      }
+    }
+  }
+}

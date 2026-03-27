@@ -1,0 +1,6 @@
+{
+  "yes": true,
+  "loglevel": "silent",
+  "version": "1.2.3",
+  "packages": ["packages/*"]
+}

@@ -1,0 +1,4 @@
+{
+  "name": "independent",
+  "workspaces": ["packages/*"]
+}

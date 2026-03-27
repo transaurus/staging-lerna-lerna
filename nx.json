@@ -1,0 +1,157 @@
+{
+  "$schema": "./node_modules/nx/schemas/nx-schema.json",
+  "namedInputs": {
+    "default": ["{projectRoot}/**/*", "sharedGlobals"],
+    "sharedGlobals": [
+      {
+        "runtime": "node -e 'console.log(`${process.platform}-${process.arch}`)'"
+      },
+      {
+        "runtime": "node --version"
+      },
+      {
+        "runtime": "npm --version"
+      },
+      "{workspaceRoot}/.github/workflows/ci.yml",
+      "{workspaceRoot}/.github/workflows/other-node-versions.yml"
+    ],
+    "production": [
+      "default",
+      "!{projectRoot}/**/?(*.)+(spec|test).[jt]s?(x)?(.snap)",
+      "!{projectRoot}/tsconfig.spec.json",
+      "!{projectRoot}/jest.config.[jt]s",
+      "!{projectRoot}/eslint.config.mjs"
+    ]
+  },
+  "targetDefaults": {
+    "test": {
+      "inputs": [
+        "default",
+        "^production",
+        "{workspaceRoot}/jest.preset.js",
+        "{workspaceRoot}/jest.config.ts"
+      ],
+      "dependsOn": ["build"],
+      "cache": true,
+      "options": {
+        "passWithNoTests": true
+      },
+      "configurations": {
+        "ci": {
+          "ci": true,
+          "codeCoverage": true
+        }
+      }
+    },
+    "lint": {
+      "inputs": ["default", "{workspaceRoot}/eslint.config.mjs"],
+      "cache": true
+    },
+    "build": {
+      "inputs": ["production", "^production"],
+      "dependsOn": ["^build"],
+      "cache": true
+    },
+    "compile": {
+      "inputs": ["production", "^production"],
+      "cache": true
+    },
+    "e2e": {
+      "executor": "nx:run-commands",
+      "options": {
+        "commands": [
+          {
+            "command": "npm run e2e-start-local-registry"
+          },
+          {
+            "command": "npm run e2e-build-package-publish"
+          },
+          {
+            "command": "E2E_ROOT=$(npx ts-node --project tools/scripts/tsconfig.e2e.json tools/scripts/set-e2e-root.ts) nx run-e2e-tests {projectName}"
+          }
+        ],
+        "parallel": false
+      },
+      "cache": true
+    },
+    "prepare-for-e2e": {
+      "executor": "nx:run-commands",
+      "inputs": ["default", "^production"],
+      "options": {
+        "commands": [
+          {
+            "command": "npm run e2e-start-local-registry"
+          },
+          {
+            "command": "npm run e2e-build-package-publish"
+          }
+        ],
+        "parallel": false
+      },
+      "cache": false
+    },
+    "run-e2e-tests-ci--**/*": {
+      "dependsOn": ["prepare-for-e2e"],
+      "inputs": [
+        "default",
+        "^production",
+        "{workspaceRoot}/jest.preset.js",
+        "{workspaceRoot}/jest.config.ts"
+      ],
+      "cache": true
+    },
+    "run-e2e-tests": {
+      "inputs": [
+        "default",
+        "^production",
+        "{workspaceRoot}/jest.preset.js",
+        "{workspaceRoot}/jest.config.ts"
+      ],
+      "executor": "@nx/jest:jest",
+      "options": {
+        "jestConfig": "{projectRoot}/jest.config.ts",
+        "passWithNoTests": true,
+        "runInBand": true
+      },
+      "outputs": ["{workspaceRoot}/coverage/{projectRoot}"],
+      "cache": true
+    },
+    "run-e2e-tests-process": {
+      "inputs": [
+        "default",
+        "^production",
+        "{workspaceRoot}/jest.preset.js",
+        "{workspaceRoot}/jest.config.ts"
+      ],
+      "executor": "nx:run-commands",
+      "options": {
+        "commands": [
+          {
+            "command": "E2E_ROOT=$(npx ts-node --project tools/scripts/tsconfig.e2e.json tools/scripts/set-e2e-root.ts) nx run-e2e-tests {projectName}",
+            "description": "This additional wrapper target exists so that we can ensure that the e2e tests run in a dedicated process with enough memory"
+          }
+        ],
+        "parallel": false
+      },
+      "cache": true
+    },
+    "integration": {
+      "inputs": ["default"],
+      "dependsOn": ["^build"],
+      "cache": true
+    }
+  },
+  "plugins": [
+    {
+      "plugin": "@nx/jest/plugin",
+      "include": ["e2e/**"],
+      "exclude": ["e2e/run/**"],
+      "options": {
+        "targetName": "run-e2e-tests",
+        "ciTargetName": "run-e2e-tests-ci"
+      }
+    }
+  ],
+  "nxCloudAccessToken": "MGQ4ZjkyMWYtYTVhNi00ZWQ4LWE0OTctNTkxM2U0ZDUzYWQ1fHJlYWQ=",
+  "bust": 1
+}

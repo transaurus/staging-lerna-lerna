@@ -1,0 +1,407 @@
+# Change Log
+
+All notable changes to this project will be documented in this file.
+See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
+
+## [7.4.2](https://github.com/lerna/lerna/compare/v7.4.1...v7.4.2) (2023-10-27)
+
+**Note:** Version bump only for package @lerna/child-process
+
+## [7.4.1](https://github.com/lerna/lerna/compare/v7.4.0...v7.4.1) (2023-10-18)
+
+**Note:** Version bump only for package @lerna/child-process
+
+# [7.4.0](https://github.com/lerna/lerna/compare/v7.3.1...v7.4.0) (2023-10-17)
+
+**Note:** Version bump only for package @lerna/child-process
+
+## [7.3.1](https://github.com/lerna/lerna/compare/v7.3.0...v7.3.1) (2023-10-10)
+
+### Bug Fixes
+
+- **core:** update package engines.node to correctly include only >=16 ([#3861](https://github.com/lerna/lerna/issues/3861)) ([0674555](https://github.com/lerna/lerna/commit/067455559a1ffa25350800bff6c9226d0e24e6b9))
+
+# [7.3.0](https://github.com/lerna/lerna/compare/v7.2.0...v7.3.0) (2023-09-13)
+
+**Note:** Version bump only for package @lerna/child-process
+
+# [7.2.0](https://github.com/lerna/lerna/compare/v7.1.5...v7.2.0) (2023-08-29)
+
+**Note:** Version bump only for package @lerna/child-process
+
+## [7.1.5](https://github.com/lerna/lerna/compare/v7.1.4...v7.1.5) (2023-08-09)
+
+**Note:** Version bump only for package @lerna/child-process
+
+## [7.1.4](https://github.com/lerna/lerna/compare/v7.1.3...v7.1.4) (2023-07-15)
+
+**Note:** Version bump only for package @lerna/child-process
+
+## [7.1.3](https://github.com/lerna/lerna/compare/v7.1.2...v7.1.3) (2023-07-12)
+
+### Bug Fixes
+
+- changelog entries for 7.1.2 ([f61b087](https://github.com/lerna/lerna/commit/f61b0872b96a95fe2830b300f082b5dff3c5d326))
+
+## [7.1.2](https://github.com/lerna/lerna/compare/v6.4.1...v7.1.2) (2023-07-12)
+
+**Note:** Version bump only for package @lerna/child-process
+
+## [7.1.1](https://github.com/lerna/lerna/compare/7.1.0...7.1.1) (2023-06-28)
+
+### Bug Fixes
+
+- **schema:** add missing ref to changelogEntryAdditionalMarkdown ([b41afab](https://github.com/lerna/lerna/commit/b41afabf2ade02cd03bafbc043fa5ed445843640))
+
+# [7.1.0](https://github.com/lerna/lerna/compare/7.0.2...7.1.0) (2023-06-25)
+
+**Note:** Version bump only for package @lerna/child-process
+
+## [7.0.2](https://github.com/lerna/lerna/compare/7.0.1...7.0.2) (2023-06-15)
+
+**Note:** Version bump only for package @lerna/child-process
+
+## [7.0.1](https://github.com/lerna/lerna/compare/7.0.0...7.0.1) (2023-06-13)
+
+**Note:** Version bump only for package @lerna/child-process
+
+# [7.0.0](https://github.com/lerna/lerna/compare/7.0.0-alpha.0...7.0.0) (2023-06-08)
+
+### Bug Fixes
+
+- migration building/publishing issues ([27bf800](https://github.com/lerna/lerna/commit/27bf800b6e7670ea1ec5576fdf008e8d09897d4b))
+- **publish:** use correct version in log messages ([#3702](https://github.com/lerna/lerna/issues/3702)) ([4be9188](https://github.com/lerna/lerna/commit/4be9188e68c5d4c320c0946e6e386cbee95a8efe))
+- support nx 16.3.1+ ([#3707](https://github.com/lerna/lerna/issues/3707)) ([647dbb5](https://github.com/lerna/lerna/commit/647dbb512bf6a873cab6362c434b420b18af0ad4))
+
+# [7.0.0-alpha.8](https://github.com/lerna/lerna/compare/7.0.0-alpha.0...7.0.0-alpha.8) (2023-06-07)
+
+### Bug Fixes
+
+- migration building/publishing issues ([27bf800](https://github.com/lerna/lerna/commit/27bf800b6e7670ea1ec5576fdf008e8d09897d4b))
+- **publish:** use correct version in log messages ([#3702](https://github.com/lerna/lerna/issues/3702)) ([4be9188](https://github.com/lerna/lerna/commit/4be9188e68c5d4c320c0946e6e386cbee95a8efe))
+- support nx 16.3.1+ ([#3707](https://github.com/lerna/lerna/issues/3707)) ([647dbb5](https://github.com/lerna/lerna/commit/647dbb512bf6a873cab6362c434b420b18af0ad4))
+
+# [7.0.0-alpha.7](https://github.com/lerna/lerna/compare/7.0.0-alpha.0...7.0.0-alpha.7) (2023-06-05)
+
+### Bug Fixes
+
+- migration building/publishing issues ([27bf800](https://github.com/lerna/lerna/commit/27bf800b6e7670ea1ec5576fdf008e8d09897d4b))
+- **publish:** use correct version in log messages ([#3702](https://github.com/lerna/lerna/issues/3702)) ([4be9188](https://github.com/lerna/lerna/commit/4be9188e68c5d4c320c0946e6e386cbee95a8efe))
+- support nx 16.3.1+ ([#3707](https://github.com/lerna/lerna/issues/3707)) ([647dbb5](https://github.com/lerna/lerna/commit/647dbb512bf6a873cab6362c434b420b18af0ad4))
+
+# [7.0.0-alpha.6](https://github.com/lerna/lerna/compare/7.0.0-alpha.0...7.0.0-alpha.6) (2023-06-02)
+
+### Bug Fixes
+
+- migration building/publishing issues ([27bf800](https://github.com/lerna/lerna/commit/27bf800b6e7670ea1ec5576fdf008e8d09897d4b))
+- **publish:** use correct version in log messages ([#3702](https://github.com/lerna/lerna/issues/3702)) ([4be9188](https://github.com/lerna/lerna/commit/4be9188e68c5d4c320c0946e6e386cbee95a8efe))
+- support nx 16.3.1+ ([#3707](https://github.com/lerna/lerna/issues/3707)) ([647dbb5](https://github.com/lerna/lerna/commit/647dbb512bf6a873cab6362c434b420b18af0ad4))
+
+# [7.0.0-alpha.5](https://github.com/lerna/lerna/compare/7.0.0-alpha.0...7.0.0-alpha.5) (2023-06-01)
+
+### Bug Fixes
+
+- migration building/publishing issues ([27bf800](https://github.com/lerna/lerna/commit/27bf800b6e7670ea1ec5576fdf008e8d09897d4b))
+- **publish:** use correct version in log messages ([#3702](https://github.com/lerna/lerna/issues/3702)) ([4be9188](https://github.com/lerna/lerna/commit/4be9188e68c5d4c320c0946e6e386cbee95a8efe))
+
+# [7.0.0-alpha.4](https://github.com/lerna/lerna/compare/7.0.0-alpha.0...7.0.0-alpha.4) (2023-06-01)
+
+### Bug Fixes
+
+- migration building/publishing issues ([27bf800](https://github.com/lerna/lerna/commit/27bf800b6e7670ea1ec5576fdf008e8d09897d4b))
+- **publish:** use correct version in log messages ([#3702](https://github.com/lerna/lerna/issues/3702)) ([4be9188](https://github.com/lerna/lerna/commit/4be9188e68c5d4c320c0946e6e386cbee95a8efe))
+
+# [7.0.0-alpha.3](https://github.com/lerna/lerna/compare/7.0.0-alpha.0...7.0.0-alpha.3) (2023-05-31)
+
+### Bug Fixes
+
+- migration building/publishing issues ([27bf800](https://github.com/lerna/lerna/commit/27bf800b6e7670ea1ec5576fdf008e8d09897d4b))
+
+# [7.0.0-alpha.2](https://github.com/lerna/lerna/compare/7.0.0-alpha.0...7.0.0-alpha.2) (2023-05-31)
+
+**Note:** Version bump only for package @lerna/child-process
+
+# [7.0.0-alpha.1](https://github.com/lerna/lerna/compare/7.0.0-alpha.0...7.0.0-alpha.1) (2023-05-31)
+
+**Note:** Version bump only for package @lerna/child-process
+
+# [7.0.0-alpha.0](https://github.com/lerna/lerna/compare/6.6.2...7.0.0-alpha.0) (2023-05-10)
+
+**Note:** Version bump only for package @lerna/child-process
+
+## [6.6.2](https://github.com/lerna/lerna/compare/6.6.1...6.6.2) (2023-05-04)
+
+### Bug Fixes
+
+- **deps:** bump pacote to latest to remove install warning ([#3624](https://github.com/lerna/lerna/issues/3624)) ([7c34521](https://github.com/lerna/lerna/commit/7c34521b9987b064638dd218b0b417546257d5f3))
+
+## [6.6.1](https://github.com/lerna/lerna/compare/6.6.0...6.6.1) (2023-03-24)
+
+**Note:** Version bump only for package @lerna/child-process
+
+# [6.6.0](https://github.com/lerna/lerna/compare/6.5.1...6.6.0) (2023-03-23)
+
+**Note:** Version bump only for package @lerna/child-process
+
+## [6.5.1](https://github.com/lerna/lerna/compare/6.5.0...6.5.1) (2023-02-14)
+
+**Note:** Version bump only for package @lerna/child-process
+
+# [6.5.0](https://github.com/lerna/lerna/compare/v6.4.1...6.5.0) (2023-02-13)
+
+**Note:** Version bump only for package @lerna/child-process
+
+## [6.4.1](https://github.com/lerna/lerna/compare/v6.4.0...v6.4.1) (2023-01-12)
+
+**Note:** Version bump only for package @lerna/child-process
+
+# [6.4.0](https://github.com/lerna/lerna/compare/v6.3.0...v6.4.0) (2023-01-05)
+
+**Note:** Version bump only for package @lerna/child-process
+
+# [6.3.0](https://github.com/lerna/lerna/compare/v6.2.0...v6.3.0) (2022-12-26)
+
+**Note:** Version bump only for package @lerna/child-process
+
+# [6.2.0](https://github.com/lerna/lerna/compare/v6.1.0...v6.2.0) (2022-12-13)
+
+**Note:** Version bump only for package @lerna/child-process
+
+# [6.1.0](https://github.com/lerna/lerna/compare/v6.0.3...v6.1.0) (2022-11-29)
+
+**Note:** Version bump only for package @lerna/child-process
+
+## [6.0.3](https://github.com/lerna/lerna/compare/v6.0.2...v6.0.3) (2022-11-07)
+
+**Note:** Version bump only for package @lerna/child-process
+
+## [6.0.2](https://github.com/lerna/lerna/compare/v6.0.1...v6.0.2) (2022-11-02)
+
+**Note:** Version bump only for package @lerna/child-process
+
+## [6.0.1](https://github.com/lerna/lerna/compare/v6.0.0...v6.0.1) (2022-10-14)
+
+**Note:** Version bump only for package @lerna/child-process
+
+# [6.0.0](https://github.com/lerna/lerna/compare/v6.0.0-alpha.2...v6.0.0) (2022-10-12)
+
+**Note:** Version bump only for package @lerna/child-process
+
+# [6.0.0-alpha.2](https://github.com/lerna/lerna/compare/v6.0.0-alpha.1...v6.0.0-alpha.2) (2022-10-12)
+
+**Note:** Version bump only for package @lerna/child-process
+
+# [6.0.0-alpha.1](https://github.com/lerna/lerna/compare/v5.6.2...v6.0.0-alpha.1) (2022-10-09)
+
+# [6.0.0-alpha.0](https://github.com/lerna/lerna/compare/v5.6.1...v6.0.0-alpha.0) (2022-10-07)
+
+**Note:** Version bump only for package @lerna/child-process
+
+## [5.6.2](https://github.com/lerna/lerna/compare/v5.6.1...v5.6.2) (2022-10-09)
+
+### Bug Fixes
+
+- **core:** replace `"red"` color with `"brightBlue"` on package's output prefix ([#2774](https://github.com/lerna/lerna/issues/2774)) ([d7c1b87](https://github.com/lerna/lerna/commit/d7c1b8784841477b24ab44b248df7e1cd2958198))
+
+## [5.6.1](https://github.com/lerna/lerna/compare/v5.6.0...v5.6.1) (2022-09-30)
+
+**Note:** Version bump only for package @lerna/child-process
+
+# [5.6.0](https://github.com/lerna/lerna/compare/v5.5.4...v5.6.0) (2022-09-29)
+
+**Note:** Version bump only for package @lerna/child-process
+
+## [5.5.4](https://github.com/lerna/lerna/compare/v5.5.3...v5.5.4) (2022-09-28)
+
+**Note:** Version bump only for package @lerna/child-process
+
+## [5.5.3](https://github.com/lerna/lerna/compare/v5.5.2...v5.5.3) (2022-09-28)
+
+**Note:** Version bump only for package @lerna/child-process
+
+## [5.5.2](https://github.com/lerna/lerna/compare/v5.5.1...v5.5.2) (2022-09-20)
+
+**Note:** Version bump only for package @lerna/child-process
+
+## [5.5.1](https://github.com/lerna/lerna/compare/v5.5.0...v5.5.1) (2022-09-09)
+
+**Note:** Version bump only for package @lerna/child-process
+
+# [5.5.0](https://github.com/lerna/lerna/compare/v5.4.3...v5.5.0) (2022-08-31)
+
+**Note:** Version bump only for package @lerna/child-process
+
+## [5.4.3](https://github.com/lerna/lerna/compare/v5.4.2...v5.4.3) (2022-08-16)
+
+**Note:** Version bump only for package @lerna/child-process
+
+## [5.4.2](https://github.com/lerna/lerna/compare/v5.4.1...v5.4.2) (2022-08-14)
+
+**Note:** Version bump only for package @lerna/child-process
+
+## [5.4.1](https://github.com/lerna/lerna/compare/v5.4.0...v5.4.1) (2022-08-12)
+
+**Note:** Version bump only for package @lerna/child-process
+
+# [5.4.0](https://github.com/lerna/lerna/compare/v5.3.0...v5.4.0) (2022-08-08)
+
+**Note:** Version bump only for package @lerna/child-process
+
+# [5.3.0](https://github.com/lerna/lerna/compare/v5.2.0...v5.3.0) (2022-07-27)
+
+**Note:** Version bump only for package @lerna/child-process
+
+# [5.2.0](https://github.com/lerna/lerna/compare/v5.1.8...v5.2.0) (2022-07-22)
+
+**Note:** Version bump only for package @lerna/child-process
+
+## [5.1.8](https://github.com/lerna/lerna/compare/v5.1.7...v5.1.8) (2022-07-07)
+
+**Note:** Version bump only for package @lerna/child-process
+
+## [5.1.7](https://github.com/lerna/lerna/compare/v5.1.6...v5.1.7) (2022-07-06)
+
+**Note:** Version bump only for package @lerna/child-process
+
+## [5.1.6](https://github.com/lerna/lerna/compare/v5.1.5...v5.1.6) (2022-06-24)
+
+**Note:** Version bump only for package @lerna/child-process
+
+## [5.1.5](https://github.com/lerna/lerna/compare/v5.1.4...v5.1.5) (2022-06-24)
+
+**Note:** Version bump only for package @lerna/child-process
+
+## [5.1.4](https://github.com/lerna/lerna/compare/v5.1.3...v5.1.4) (2022-06-15)
+
+**Note:** Version bump only for package @lerna/child-process
+
+## [5.1.3](https://github.com/lerna/lerna/compare/v5.1.2...v5.1.3) (2022-06-15)
+
+**Note:** Version bump only for package @lerna/child-process
+
+## [5.1.1](https://github.com/lerna/lerna/compare/v5.1.0...v5.1.1) (2022-06-09)
+
+### Bug Fixes
+
+- allow maintenance LTS node 14 engines starting at 14.15.0 ([#3161](https://github.com/lerna/lerna/issues/3161)) ([72305e4](https://github.com/lerna/lerna/commit/72305e4dbab607a2d87ae4efa6ee577c93a9dda9))
+
+# [5.1.0](https://github.com/lerna/lerna/compare/v5.0.0...v5.1.0) (2022-06-07)
+
+**Note:** Version bump only for package @lerna/child-process
+
+# [5.1.0-alpha.0](https://github.com/lerna/lerna/compare/v4.0.0...v5.1.0-alpha.0) (2022-05-25)
+
+**Note:** Version bump only for package @lerna/child-process
+
+# [5.0.0](https://github.com/lerna/lerna/compare/v4.0.0...v5.0.0) (2022-05-24)
+
+**Note:** Version bump only for package @lerna/child-process
+
+# [4.0.0](https://github.com/lerna/lerna/compare/v3.22.1...v4.0.0) (2021-02-10)
+
+### Features
+
+- **child-process:** Add JSDoc types ([1840492](https://github.com/lerna/lerna/commit/1840492a6b9e832dafe7046157798e3157c2a13b))
+- **deps:** Bump dependencies ([affed1c](https://github.com/lerna/lerna/commit/affed1ce0fce91f01b0a9eafe357db2d985b974f))
+- **deps:** chalk@^4.1.0 ([d2a9ed5](https://github.com/lerna/lerna/commit/d2a9ed537139f49561a7e29b3ebf624c97f48c77))
+- **deps:** execa@^4.1.0 ([9051dca](https://github.com/lerna/lerna/commit/9051dcab1a68b56db09b82ab0345c5f36bcfee2d))
+- **deps:** execa@^5.0.0 ([d8100fd](https://github.com/lerna/lerna/commit/d8100fd9e0742b049ed16ac77e976ce34234ebfc))
+- Drop support for Node v6.x & v8.x ([ff4bb4d](https://github.com/lerna/lerna/commit/ff4bb4da215555e3bb136f5af09b5cbc631e57bb))
+
+### BREAKING CHANGES
+
+- Node v6.x & v8.x are no longer supported. Please upgrade to the latest LTS release.
+
+Here's the gnarly one-liner I used to make these changes:
+
+```
+npx lerna exec --concurrency 1 --stream -- 'json -I -f package.json -e '"'"'this.engines=this.engines||{};this.engines.node=">= 10.18.0"'"'"
+```
+
+(requires `npm i -g json` beforehand)
+
+## [3.16.5](https://github.com/lerna/lerna/compare/v3.16.4...v3.16.5) (2019-10-07)
+
+### Bug Fixes
+
+- **child-process:** Use Set to manage book-keeping instead of mutable integer ([5dbea32](https://github.com/lerna/lerna/commit/5dbea32))
+
+## [3.14.2](https://github.com/lerna/lerna/compare/v3.14.1...v3.14.2) (2019-06-09)
+
+### Bug Fixes
+
+- **child-process:** Ensure adjacent prefixes are always a different color ([5a10146](https://github.com/lerna/lerna/commit/5a10146))
+
+## [3.13.3](https://github.com/lerna/lerna/compare/v3.13.2...v3.13.3) (2019-04-17)
+
+### Bug Fixes
+
+- **child-process:** Centralize `exitCode` translation from string codes into numbers ([09c0103](https://github.com/lerna/lerna/commit/09c0103)), closes [#2031](https://github.com/lerna/lerna/issues/2031)
+
+# [3.13.0](https://github.com/lerna/lerna/compare/v3.12.1...v3.13.0) (2019-02-15)
+
+### Features
+
+- **meta:** Add `repository.directory` field to package.json ([aec5023](https://github.com/lerna/lerna/commit/aec5023))
+- **meta:** Normalize package.json `homepage` field ([abeb4dc](https://github.com/lerna/lerna/commit/abeb4dc))
+
+<a name="3.3.0"></a>
+
+# [3.3.0](https://github.com/lerna/lerna/compare/v3.2.1...v3.3.0) (2018-09-06)
+
+### Features
+
+- **deps:** Upgrade execa to ^1.0.0 ([748ae4e](https://github.com/lerna/lerna/commit/748ae4e))
+- **deps:** Upgrade strong-log-transformer to ^2.0.0 ([42b18a1](https://github.com/lerna/lerna/commit/42b18a1))
+
+<a name="3.0.0"></a>
+
+# [3.0.0](https://github.com/lerna/lerna/compare/v3.0.0-rc.0...v3.0.0) (2018-08-10)
+
+**Note:** Version bump only for package @lerna/child-process
+
+<a name="3.0.0-rc.0"></a>
+
+# [3.0.0-rc.0](https://github.com/lerna/lerna/compare/v3.0.0-beta.21...v3.0.0-rc.0) (2018-07-27)
+
+**Note:** Version bump only for package @lerna/child-process
+
+<a name="3.0.0-beta.21"></a>
+
+# [3.0.0-beta.21](https://github.com/lerna/lerna/compare/v3.0.0-beta.20...v3.0.0-beta.21) (2018-05-12)
+
+### Bug Fixes
+
+- **child-process:** Prevent duplicate logs when any package-oriented execution fails ([d3a8128](https://github.com/lerna/lerna/commit/d3a8128))
+
+<a name="3.0.0-beta.20"></a>
+
+# [3.0.0-beta.20](https://github.com/lerna/lerna/compare/v3.0.0-beta.19...v3.0.0-beta.20) (2018-05-07)
+
+### Features
+
+- Upgrade execa ([393b501](https://github.com/lerna/lerna/commit/393b501))
+
+<a name="3.0.0-beta.13"></a>
+
+# [3.0.0-beta.13](https://github.com/lerna/lerna/compare/v3.0.0-beta.12...v3.0.0-beta.13) (2018-03-31)
+
+### Bug Fixes
+
+- **child-process:** Do not merge lines of streaming stderr ([59dc2d4](https://github.com/lerna/lerna/commit/59dc2d4)), closes [#994](https://github.com/lerna/lerna/issues/994)
+
+<a name="3.0.0-beta.12"></a>
+
+# [3.0.0-beta.12](https://github.com/lerna/lerna/compare/v3.0.0-beta.11...v3.0.0-beta.12) (2018-03-30)
+
+### Features
+
+- Add --no-prefix for streaming output ([#1352](https://github.com/lerna/lerna/issues/1352)) ([36c1fad](https://github.com/lerna/lerna/commit/36c1fad))
+
+<a name="3.0.0-beta.11"></a>
+
+# [3.0.0-beta.11](https://github.com/lerna/lerna/compare/v3.0.0-beta.10...v3.0.0-beta.11) (2018-03-29)
+
+### Features
+
+- **child-process:** Allow exec() opts.stdio override ([fd84013](https://github.com/lerna/lerna/commit/fd84013))
