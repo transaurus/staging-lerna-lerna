@@ -1,0 +1,21 @@
+{
+  "description": "Repository-specific fixes for lerna/lerna",
+  "fixes": {
+    "website/docs/lerna-and-nx.md": [
+      {
+        "type": "replace",
+        "find": "docs/lerna6-obsolete-options.md",
+        "replace": "./lerna6-obsolete-options.md",
+        "comment": "Fix relative path for internal doc link"
+      }
+    ],
+    "website/docusaurus.config.js": [
+      {
+        "type": "replace",
+        "find": "trailingSlash: false,",
+        "replace": "",
+        "comment": "Remove trailingSlash config that may cause issues"
+      }
+    ]
+  }
+}
