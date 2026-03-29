@@ -1,0 +1,38 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.main.category.Features": {
+    "message": "Features",
+    "description": "The label for category 'Features' in sidebar 'main'"
+  },
+  "sidebar.main.category.Features.link.generated-index.title": {
+    "message": "How To Guides",
+    "description": "The generated-index page title for category 'Features' in sidebar 'main'"
+  },
+  "sidebar.main.category.Features.link.generated-index.description": {
+    "message": "Get Started",
+    "description": "The generated-index page description for category 'Features' in sidebar 'main'"
+  },
+  "sidebar.main.category.Concepts": {
+    "message": "Concepts",
+    "description": "The label for category 'Concepts' in sidebar 'main'"
+  },
+  "sidebar.main.category.Concepts.link.generated-index.title": {
+    "message": "Concepts",
+    "description": "The generated-index page title for category 'Concepts' in sidebar 'main'"
+  },
+  "sidebar.main.category.Concepts.link.generated-index.description": {
+    "message": "Get a higher level understanding of concepts used in Lerna",
+    "description": "The generated-index page description for category 'Concepts' in sidebar 'main'"
+  },
+  "sidebar.main.category.Recipes": {
+    "message": "Recipes",
+    "description": "The label for category 'Recipes' in sidebar 'main'"
+  },
+  "sidebar.main.category.API Reference": {
+    "message": "API Reference",
+    "description": "The label for category 'API Reference' in sidebar 'main'"
+  }
+}

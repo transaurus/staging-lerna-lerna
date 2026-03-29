@@ -10,7 +10,7 @@ const config = {
   tagline: "Original Monorepo Tool",
   url: "https://lerna.js.org",
   baseUrl: "/",
-  onBrokenLinks: "throw",
+  onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: "warn",
   favicon: "images/favicon.ico",
   organizationName: "lerna",
@@ -22,7 +22,7 @@ const config = {
   // to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: "en",
-    locales: ["en"],
+    locales: ["en", "zh-Hans"],
   },
 
   plugins: [],
